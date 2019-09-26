@@ -1,6 +1,12 @@
-                             
+"
+" _    ___                    
+" | |  / (_)___ ___  __________
+" | | / / / __ `__ \/ ___/ ___/
+" | |/ / / / / / / / /  / /__  
+" |___/_/_/ /_/ /_/_/   \___/                              
+"
 " Zander's Vimrc file
-
+"
 " Plugins will be downloaded under the specified directory.
 call plug#begin('~/.vim/plugged')
 
