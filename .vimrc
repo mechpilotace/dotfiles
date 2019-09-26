@@ -16,11 +16,21 @@ Plug 'junegunn/seoul256.vim'
 Plug 'tpope/vim-surround'
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/goyo.vim'
-"Plug ' 
+Plug 'scrooloose/nerdtree' 
+Plug 'vim-scripts/nginx.vim'
+Plug 'sheerun/vim-polyglot'
+
+Plug 'honza/vim-snippets' "vim-snippits has the followin dependencies:
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'garbas/vim-snipmate'
 
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
+
+" Set Nerd-Tree binding
+map <C-n> :NERDTreeToggle<CR>
 
 " Other Vim settings
 set number " sets line numbers
