@@ -11,6 +11,7 @@
 call plug#begin('~/.vim/plugged')
 
 " Declare the list of plugins.
+Plug 'dikiaap/minimalist' "Keep colorschemes first.
 Plug 'tpope/vim-sensible'
 Plug 'junegunn/seoul256.vim'
 Plug 'tpope/vim-surround'
@@ -40,7 +41,7 @@ set showmatch " show the matching part of the pair for [] {} and ()
 
 let python_highlight_all = 1 " enable all Python syntax highlighting features
 
-
+colorscheme minimalist
 
 
 
