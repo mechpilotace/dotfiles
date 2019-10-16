@@ -20,12 +20,11 @@ Plug 'junegunn/goyo.vim'
 Plug 'scrooloose/nerdtree' 
 Plug 'vim-scripts/nginx.vim'
 Plug 'sheerun/vim-polyglot'
-
 Plug 'honza/vim-snippets' "vim-snippits has the followin dependencies:
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
-
+Plug 'wookayin/vim-typora'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
