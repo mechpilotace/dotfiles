@@ -42,7 +42,7 @@ let python_highlight_all = 1 " enable all Python syntax highlighting features
 
 colorscheme minimalist
 
-
+set rtp+=/usr/local/opt/fzf
 
 
 
