@@ -9,4 +9,4 @@ I try and keep the following values or choices to my configurations.
 
 Feel free to take and share around.
 
-![](images/desktop.png)
+![Screenshot](images/desktop.png)
