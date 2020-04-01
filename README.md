@@ -7,4 +7,6 @@ I try and keep the following values or choices to my configurations.
 * Extensible
 * Try it out!
 
-Feel free to take and share around. 
+Feel free to take and share around.
+
+![](images/desktop.png)
