@@ -25,6 +25,9 @@ Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
 Plug 'wookayin/vim-typora'
+Plug 'tpope/vim-commentary'
+Plug 'vifm/vifm.vim'
+Plug 'ap/vim-css-color'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
