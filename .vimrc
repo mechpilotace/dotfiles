@@ -47,6 +47,11 @@ colorscheme minimalist
 
 set rtp+=/usr/local/opt/fzf
 
+" Disable Arrow Keys
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
