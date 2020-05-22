@@ -37,9 +37,18 @@ map <C-n> :NERDTreeToggle<CR>
 
 " Other Vim settings
 set number " sets line numbers
-set ts=4 " sets tabspace to 4
-syntax enable " enables systax processing
-set showmatch " show the matching part of the pair for [] {} and ()
+"set ts=4 " sets tabspace to 4
+"syntax enable " enables systax processing
+"set showmatch " show the matching part of the pair for [] {} and ()
+
+" Updated Tab Formatting
+filetype plugin indent on
+" show existing tab with 4 spaces width
+set tabstop=4 
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
 
 let python_highlight_all = 1 " enable all Python syntax highlighting features
 
